@@ -1,3 +1,19 @@
+.scrollBar {
+  position: fixed;
+  top: 0;
+  right: 0;
+  
+}
+
+.scrollBar ul {
+  list-style-type: none;
+  margin-bottom: 0;
+  padding-left: 0;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+
+} 
 a:link{
     text-decoration: none!important;
     
@@ -11,6 +27,7 @@ h1
     text-align:center; 
 }
 
+
 section
 {
  text-align: center;   
@@ -20,4 +37,8 @@ section
  background-color: gray;  
  color:whitesmoke; 
 }
-
+body {
+  font-family:georgia, serif;
+  }
+ 
+    
