@@ -1,5 +1,5 @@
 .scrollBar {
-  position: fixed;
+  position: absolute;
   top: 0;
   right: 0;
   
@@ -22,23 +22,17 @@ a
 {
 color: #33ffbe;
 }
-h1
-{
-    text-align:center; 
-}
-
 
 section
 {
- text-align: center;   
+background-color:#488690;
+
 }
-#pied
+
+h1
 {
- background-color: gray;  
- color:whitesmoke; 
+background-color : white;
+text-align: center;
+text-shadow: 2px 1px 2px black;
+font-family: 'Open Sans', sans-serif;
 }
-body {
-  font-family:georgia, serif;
-  }
- 
-    
