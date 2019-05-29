@@ -30,3 +30,7 @@ p {
   text-decoration: underline;
   color: black;
 }
+
+.italic{
+  font-style: italic; 
+}
