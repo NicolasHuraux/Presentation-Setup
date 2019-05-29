@@ -20,4 +20,13 @@ section
  background-color: gray;  
  color:whitesmoke; 
 }
-
+body 
+{
+  background: url(https://setup-cae.fr/wp-content/uploads/2018/05/rayure-bleu.png);
+  background-position: initial;
+  margin: 20vh
+}
+p {
+  text-decoration: underline;
+  color: black;
+}
