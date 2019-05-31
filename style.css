@@ -1,12 +1,40 @@
-.italic{
-font-style: italic; 
+.scrollBar {
+  position: absolute;
+  top: absolute;
+  right: 0;
+  
 }
 
-body 
+.scrollBar ul {
+  list-style-type: none;
+  margin-bottom: 0;
+  padding-left: 0;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+
+} 
+.container
 {
-background-color:#488690;
+  margin-right:40px !important;  
+}
+a:link{
+    text-decoration: none!important;
+    
+  }
+a
+{
+color: #33ffbe;
 }
 
+body
+{
+background-color:white;
+}
+.font-weight-bold
+{
+background-color: #488690    
+}
 h1
 {
 background-color : white;
@@ -16,7 +44,7 @@ font-family: 'Open Sans', sans-serif;
 }
 .pied
 {
-background-color: bisque;
+background-color:#488690;
 }
 
 .context-dark, .bg-gray-dark, .bg-primary {
@@ -34,7 +62,7 @@ background-color: bisque;
 .nav-list li a:hover:before {
     margin-left: 0;
     opacity: 1;
-    visibility: visible;
+   
 }
 
 ul, ol {
@@ -51,7 +79,7 @@ ul, ol {
     padding: 23px;
     font: 900 13px/1 "Lato", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
     text-transform: uppercase;
-    color: rgba(255, 255, 255, 0.5);
+    color:#488690;
 }
 .social-container .col {
     border: 1px solid rgba(255, 255, 255, 0.1);
@@ -64,7 +92,4 @@ ul, ol {
     vertical-align: baseline;
     margin-left: -28px;
     margin-right: 7px;
-    opacity: 0;
-    visibility: hidden;
-    transition: .22s ease;
 }
