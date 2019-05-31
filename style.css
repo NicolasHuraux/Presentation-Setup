@@ -30,13 +30,10 @@ color: #33ffbe;
 body
 {
 background-color:white;
-<<<<<<< HEAD
-=======
 }
 .font-weight-bold
 {
 background-color: #488690    
->>>>>>> e92e74d477a8c441b6e5ad48dc7613f5eff7da8d
 }
 h1
 {
@@ -45,12 +42,10 @@ text-align: center;
 text-shadow: 2px 1px 2px black;
 font-family: 'Open Sans', sans-serif;
 }
-<<<<<<< HEAD
 
 .italic{
     font-style: italic; 
     }
-=======
 .pied
 {
 background-color:#488690;
@@ -102,4 +97,3 @@ ul, ol {
     margin-left: -28px;
     margin-right: 7px;
 }
->>>>>>> e92e74d477a8c441b6e5ad48dc7613f5eff7da8d
