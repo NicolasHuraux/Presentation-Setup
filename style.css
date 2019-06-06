@@ -2,6 +2,7 @@
   position: absolute;
   top: absolute;
   right: 0;
+  margin-left: 45px;
   
 }
 
@@ -14,86 +15,88 @@
   flex-direction: column;
 
 } 
-.container
-{
-  margin-right:40px !important;  
+.container {
+  margin-right:auto !important;  
 }
 a:link{
-    text-decoration: none!important;
+  text-decoration: none!important;
     
   }
-a
-{
-color: #33ffbe;
+a {
+  color: rgb(116, 27, 27);
+  text-decoration: none;
 }
 
-body
-{
-background-color:white;
+
+body {
+  background-color:white;
 }
-.font-weight-bold
-{
-background-color: #488690    
+.font-weight-bold {
+  background-color: #488690    
 }
-h1
-{
-background-color :#488690;
-text-align: center;
-text-shadow: 2px 1px 2px black;
-font-family: 'Open Sans', sans-serif;
+h1 {
+  background-color :#488690;
+  text-align: center;
+  text-shadow: 2px 1px 2px black;
+  font-family: 'Open Sans', sans-serif;
 }
 
-.italic{
-    font-style: italic; 
-    }
-.pied
-{
-background-color:#488690;
+.italic {
+  font-style: italic; 
+}
+.pied {
+  background-color:#488690;
 }
 
 .context-dark, .bg-gray-dark, .bg-primary {
-    color: rgba(255, 255, 255, 0.8);
+ color: rgba(255, 255, 255, 0.8);
 }
 
 .footer-classic a, .footer-classic a:focus, .footer-classic a:active {
     color: #ffffff;
 }
 .nav-list li {
-    padding-top: 5px;
-    padding-bottom: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 
 .nav-list li a:hover:before {
-    margin-left: 0;
-    opacity: 1;
-   
+  margin-left: 0;
+  opacity: 1;
 }
 
 ul, ol {
-    list-style: none;
-    padding: 0;
-    margin: 0;
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
 .social-inner {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-    padding: 23px;
-    font: 900 13px/1 "Lato", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-    text-transform: uppercase;
-    color:#488690;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  padding: 23px;
+  font: 900 13px/1 "Lato", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  text-transform: uppercase;
+  color:#488690;
 }
 .social-container .col {
-    border: 1px solid rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.1);
 }
 .nav-list li a:before {
-    content: "\f14f";
-    font: 400 21px/1 "Material Design Icons";
-    color: #4d6de6;
-    display: inline-block;
-    vertical-align: baseline;
-    margin-left: -28px;
-    margin-right: 7px;
+  content: "\f14f";
+  font: 400 21px/1 "Material Design Icons";
+  color: #4d6de6;
+  display: inline-block;
+  vertical-align: baseline;
+  margin-left: -28px;
+  margin-right: 7px;
 }
+
+.back {
+  color: #488690;
+  text-decoration: none;
+}
+
+
