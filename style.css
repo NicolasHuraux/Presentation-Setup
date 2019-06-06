@@ -1,22 +1,35 @@
 .scrollBar {
-  position: absolute;
-  top: absolute;
-  right: 0;
+  position: fixed;
+  top: 20vh;
+  height: calc(100vh - 10vh - 5vh);
+  right: 10px;
   
+  overflow: auto;
+  width: 40px;
+}
+header{
+  height: 30vh;
 }
 
 .scrollBar ul {
   list-style-type: none;
-  margin-bottom: 0;
-  padding-left: 0;
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
+  top:absolute;
 
 } 
+.row-no-padding {
+  [class*="col-"] {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+}
 .container
 {
-  margin-right:40px !important;  
+ 
+  flex-grow: 1;
+  padding: 0px;
+  position: relative;
+  margin: auto;
+  
 }
 a:link{
     text-decoration: none!important;
@@ -45,6 +58,7 @@ font-family: 'Open Sans', sans-serif;
 .pied
 {
 background-color:#488690;
+height: 30%;
 }
 
 .context-dark, .bg-gray-dark, .bg-primary {
