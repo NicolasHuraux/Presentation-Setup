@@ -1,36 +1,28 @@
 .scrollBar {
-  position: fixed;
-  top: 20vh;
-  height: calc(100vh - 10vh - 5vh);
-  right: 10px;
-  
-  overflow: auto;
-  width: 40px;
+ 
+  top:absolute;
+  height: calc(100vh -10vh - 5vh);
+  width: 30px;
+  right: 5px;
+  position:absolute;
+ 
 }
-header{
-  height: 30vh;
-}
-
 .scrollBar ul {
   list-style-type: none;
   top:absolute;
-
+  text-align:center;
 } 
-.row-no-padding {
-  [class*="col-"] {
-    padding-left: 0 !important;
-    padding-right: 0 !important;
-  }
-}
-.container
-{
- 
-  flex-grow: 1;
-  padding: 0px;
+.container{
+  right: 5px;
+  overflow: auto;
   position: relative;
-  margin: auto;
-  
+  padding-right:40px;
+  flex-grow:1;
+  display: flex;
+  flex-direction: column;
+
 }
+
 a:link{
   text-decoration: none!important;
     
@@ -40,12 +32,9 @@ a {
   text-decoration: none;
 }
 
-
-body {
-  background-color:white;
-}
-.font-weight-bold {
-  background-color: #488690    
+.font-weight-bold
+{
+background-color: #488690    
 }
 h1 {
   background-color :#488690;
