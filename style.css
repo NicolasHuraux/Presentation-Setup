@@ -20,6 +20,10 @@
   flex-grow:1;
   display: flex;
   flex-direction: column;
+}  
+.container-pied{
+  position:relative; 
+  bottom:0;
 
 }
 
@@ -50,7 +54,6 @@ h1 {
 {
 background-color:#488690;
 height: 30vh;
-
 }
 
 .context-dark, .bg-gray-dark, .bg-primary {
@@ -59,6 +62,7 @@ height: 30vh;
 
 .footer-classic a, .footer-classic a:focus, .footer-classic a:active {
     color: #ffffff;
+ 
 }
 .nav-list li {
   padding-top: 5px;
@@ -88,6 +92,7 @@ ul, ol {
 }
 .social-container .col {
   border: 1px solid rgba(255, 255, 255, 0.1);
+
 }
 .nav-list li a:before {
   content: "\f14f";
@@ -98,10 +103,7 @@ ul, ol {
   margin-left: -28px;
   margin-right: 7px;
 }
-
 .back {
   color: #488690;
   text-decoration: none;
 }
-
-
