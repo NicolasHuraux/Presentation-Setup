@@ -1,6 +1,3 @@
-body {
-  font-family: 'Open Sans', sans-serif;
-}
 .scrollBar {
   position:fixed;
   z-index: 1;
@@ -8,7 +5,7 @@ body {
   top: 0;
   height: 100vh;
   background-color: white;
-  box-shadow: -.125rem 0 .25rem rgba(0,0,0,.075);
+  border-left: 1px solid grey;
 }
 .scrollBar ul {
   list-style-type: none;
@@ -31,19 +28,11 @@ body {
 .main-container {
   display: flex;
   flex-direction: column;
-<<<<<<< HEAD
-}  
-.container-pied{
-  position:relative; 
-  bottom:0;
-
-=======
   height: 100vh;
   padding-right: 40px; 
 }
 .center {
   flex-grow:1;
->>>>>>> e8f128af935f33f622ed2a8b03f28688d558222f
 }
 a:link{
   text-decoration: none!important;
@@ -61,36 +50,15 @@ h1 {
   background-color :#488690;
   text-align: center;
   text-shadow: 2px 1px 2px black;
-  font-size: 30px;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .italic {
   font-style: italic; 
 }
-footer {
+.pied {
 background-color:#488690;
-<<<<<<< HEAD
-<<<<<<< HEAD
-height: 30vh;
-}
 
-.context-dark, .bg-gray-dark, .bg-primary {
- color: rgba(255, 255, 255, 0.8);
-}
-
-.footer-classic a, .footer-classic a:focus, .footer-classic a:active {
-    color: #ffffff;
- 
-}
-.nav-list li {
-  padding-top: 5px;
-  padding-bottom: 5px;
-}
-=======
->>>>>>> e8f128af935f33f622ed2a8b03f28688d558222f
-
-=======
->>>>>>> 8dd5de2a5f015b4c1e127be47cab84a92b7f2218
 }
 
 
@@ -117,13 +85,9 @@ height: 30vh;
 .back {
   color: #488690;
   text-decoration: none;
-<<<<<<< HEAD
-}
-=======
 }
 
 .social-inner {
   color: rgb(116, 27, 27);
   text-decoration: none;
 }
->>>>>>> e8f128af935f33f622ed2a8b03f28688d558222f
