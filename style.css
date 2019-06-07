@@ -1,3 +1,6 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+}
 .scrollBar {
   position:fixed;
   z-index: 1;
@@ -5,7 +8,7 @@
   top: 0;
   height: 100vh;
   background-color: white;
-  border-left: 1px solid grey;
+  box-shadow: -.125rem 0 .25rem rgba(0,0,0,.075);
 }
 .scrollBar ul {
   list-style-type: none;
@@ -50,15 +53,14 @@ h1 {
   background-color :#488690;
   text-align: center;
   text-shadow: 2px 1px 2px black;
-  font-family: 'Open Sans', sans-serif;
+  font-size: 30px;
 }
 
 .italic {
   font-style: italic; 
 }
-.pied {
+footer {
 background-color:#488690;
-
 }
 
 
@@ -71,7 +73,6 @@ background-color:#488690;
 }
 .social-container .col {
   border: 1px solid rgba(255, 255, 255, 0.1);
-
 }
 .nav-list li a:before {
   content: "\f14f";
@@ -82,6 +83,7 @@ background-color:#488690;
   margin-left: -28px;
   margin-right: 7px;
 }
+
 .back {
   color: #488690;
   text-decoration: none;
