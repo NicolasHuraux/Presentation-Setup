@@ -1,43 +1,57 @@
 .scrollBar {
- 
-  top:absolute;
-  height: calc(100vh -10vh - 5vh);
-  width: 30px;
-  right: 5px;
-  position:absolute;
- 
+  position:fixed;
+  z-index: 1;
+  right: 0;
+  top: 0;
+  height: 100vh;
+  background-color: white;
+  border-left: 1px solid grey;
 }
 .scrollBar ul {
   list-style-type: none;
-  top:absolute;
+  padding-left: 0;
   text-align:center;
-} 
-.container{
-  right: 5px;
-  overflow: auto;
-  position: relative;
-  padding-right:40px;
-  flex-grow:1;
   display: flex;
   flex-direction: column;
+  justify-content: space-around;
+  height: 100%;
+}
+.scrollBar .btn {
+  font-size: .9rem;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+.container {
+  overflow: auto;
+  position: relative;
+}
+.main-container {
+  display: flex;
+  flex-direction: column;
+<<<<<<< HEAD
 }  
 .container-pied{
   position:relative; 
   bottom:0;
 
+=======
+  height: 100vh;
+  padding-right: 40px; 
 }
-
+.center {
+  flex-grow:1;
+>>>>>>> e8f128af935f33f622ed2a8b03f28688d558222f
+}
 a:link{
   text-decoration: none!important;
     
-  }
+}
 a {
   color: rgb(116, 27, 27);
   text-decoration: none;
 }
 
-.font-weight-bold
-{
+.font-weight-bold {
 background-color: #488690    
 }
 h1 {
@@ -50,9 +64,9 @@ h1 {
 .italic {
   font-style: italic; 
 }
-.pied
-{
+.pied {
 background-color:#488690;
+<<<<<<< HEAD
 height: 30vh;
 }
 
@@ -68,24 +82,15 @@ height: 30vh;
   padding-top: 5px;
   padding-bottom: 5px;
 }
+=======
+>>>>>>> e8f128af935f33f622ed2a8b03f28688d558222f
 
-.nav-list li a:hover:before {
-  margin-left: 0;
-  opacity: 1;
 }
 
-ul, ol {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
 
 .social-inner {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  width: 100%;
-  padding: 23px;
   font: 900 13px/1 "Lato", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   text-transform: uppercase;
   color:#488690;
@@ -106,4 +111,13 @@ ul, ol {
 .back {
   color: #488690;
   text-decoration: none;
+<<<<<<< HEAD
 }
+=======
+}
+
+.social-inner {
+  color: rgb(116, 27, 27);
+  text-decoration: none;
+}
+>>>>>>> e8f128af935f33f622ed2a8b03f28688d558222f
